@@ -1,4 +1,4 @@
-# zoek.vim
+![assets/logo.svg]
 
 The main idea of this plugin is to use the help |FileType| of vim to link small 
 notes together and build a zettel-kasten.

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="50mm"
+   viewBox="0 0 210 50"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0206207"
+     inkscape:cx="434.04958"
+     inkscape:cy="169.01479"
+     inkscape:window-width="1912"
+     inkscape:window-height="1054"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1439"
+       transform="translate(0,-21.6385)">
+      <text
+         xml:space="preserve"
+         style="font-size:47.0078px;line-height:1.25;font-family:'CMU Typewriter Text Variable Width';-inkscape-font-specification:'CMU Typewriter Text Variable Width';stroke-width:0.352558"
+         x="0.031298958"
+         y="53.249161"
+         id="text387-3"><tspan
+           sodipodi:role="line"
+           id="tspan385-5"
+           style="font-size:47.0078px;stroke-width:0.352558"
+           x="0.031298958"
+           y="53.249161">ZoeK.vim</tspan></text>
+      <rect
+         style="fill:#000000;stroke:none;stroke-width:1.3325;stop-color:#000000"
+         id="rect468"
+         width="19.288565"
+         height="3.1707833"
+         x="67.874359"
+         y="-16.56543"
+         transform="rotate(60)" />
+      <g
+         id="g730"
+         transform="matrix(1.4355241,-0.11605628,0.11605628,1.4355241,-52.242769,-7.5369352)">
+        <ellipse
+           style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.686527;stop-color:#000000"
+           id="path574"
+           cx="74.245399"
+           cy="35.197807"
+           rx="2.6912906"
+           ry="3.466258" />
+        <ellipse
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.686527;stop-color:#000000"
+           id="path574-6"
+           cx="77.681824"
+           cy="33.779915"
+           rx="2.6912906"
+           ry="3.466258" />
+        <ellipse
+           style="opacity:1;fill:#000000;stroke:#000000;stroke-width:0.69817;stop-color:#000000"
+           id="path702"
+           cx="73.363907"
+           cy="35.747597"
+           rx="0.54391134"
+           ry="0.82700783" />
+        <ellipse
+           style="fill:#000000;stroke:#000000;stroke-width:0.69817;stop-color:#000000"
+           id="path702-2"
+           cx="76.960487"
+           cy="34.16029"
+           rx="0.54391134"
+           ry="0.82700783" />
+      </g>
+    </g>
+  </g>
+</svg>
