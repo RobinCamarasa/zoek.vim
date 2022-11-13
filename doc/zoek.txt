@@ -1,0 +1,116 @@
+*zoek.txt* functionality of a portable zettel-kasten
+
+                      _____          _  __~
+                     |__  /___   ___| |/ /~
+                       / // _ \ / _ \ ' / ~
+                      / /| (_) |  __/ . \ ~
+                     /____\___/ \___|_|\_\~
+
+
+The main idea of this plugin is of vim to link small notes (making use of the 
+help |FileType| for the |tags| and the |syntax|) together and build a zettel-kasten.
+
+All |tags| of the |zoek| plugin starts two underscores __ to avoid confusing
+the |help| program.
+
+===============================================================================
+CONTENTS                                          *zoek*
+        
+        0. License .................................. |zoek-license|
+        1. TODO ..................................... |zoek-todo|
+        2. Commands ................................. |zoek-commands|
+        3. Mapping .................................. |zoek-mappings|
+        4. Text objects ............................. |zoek-text-object|
+        5. Others ................................... |zoek-others|
+
+===============================================================================
+Section 0: License                                *zoek-license*
+
+
+Copyright 2022 Robin Camarasa~
+
+Permission is hereby granted, free of charge, to any person obtaining a copy ~
+of this software and associated documentation files (the "Software"), to deal ~
+in the Software without restriction, including without limitation the rights ~
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell ~
+copies of the Software, and to permit persons to whom the Software is ~
+furnished to do so, subject to the following conditions:~
+
+The above copyright notice and this permission notice shall be included in ~
+all copies or substantial portions of the Software.~
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR ~
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF ~
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN ~
+NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY ~
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT~
+OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE ~
+USE OR OTHER DEALINGS IN THE SOFTWARE.~
+
+===============================================================================
+Section 1: TODO                                       *zoek-todo*
+
+'wip': Handle screenshots?
+'wip': Handle version control?
+
+===============================================================================
+Section 2: Commands                                   *zoek-commands*
+
+                                                      *zoek-ZK*
+                                                      *:ZK*
+:ZK [arguments]         Create a new card in the zettel-kasten with. The name 
+                        of the generated file is the [arguments] in lowercase
+                        attached with '-'.
+
+                                                      *zoek-ZS*
+                                                      *:ZS*
+:ZS [arguments]         Search the [arguments] in the zettel-kasten.
+
+===============================================================================
+Section 3: Mappings                                   *zoek-mappings*
+
+General~
+                                                      *zoek-leader-zz*
+<leader>zz              Write ZK in |command-mode| (see |:ZK|)
+                                                      *zoek-leader-z/*
+<leader>z/              Write ZS in |command-mode| (see |:ZS|)
+
+
+Filetype help~
+
+                                                      *zoek-gd*
+gd                      Go to tag definition
+                                                      *zoek-localleader-t*
+<localleader>t          Toggle modifications as by default |zoek| open |help| 
+                        files in read-only mode (see |readonly|)
+
+===============================================================================
+Section 4: Text objects                               *zoek-text-objects*
+
+                                                      *zoek-it*
+it                      "inner tag block" over-write vim's builtin "inner tag
+                        block" (see |it|) to make it match help's |FileType|
+                        tags.
+
+===============================================================================
+Section 5: Operators                                  *zoek-operators*
+
+Filetype help~
+
+                                                      *zoek-localleader-m*
+<localleader>m{motion}  Set as first (and main) occurence of the tag (usually
+                        used in the combination with |zoek-it|)
+
+===============================================================================
+Section 6: Others                                     *zoek-others*
+
+|zoek| offers |new-omni-completion| that will provide auto-completion of tags.
+
+When saving the help file |zoek| will re-generate the help file using |helptag|.
+
+The last lines indicating to vim the |FileType| of each notes are folded (see
+|folding|)
+
+===============================================================================
+
+vim: ft=help
